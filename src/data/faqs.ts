@@ -122,7 +122,7 @@ export function getLocationFAQs(locationName: string): FAQ[] {
 export const PAGE_FAQS: FAQ[] = [
   {
     question: "How quickly can you respond to an emergency callout?",
-    answer: 'We aim to respond to <a href="/services/emergency-drain-services/" class="text-primary hover:underline">emergency drainage callouts</a> within 60-90 minutes across <a href="/locations/manchester/" class="text-primary hover:underline">Manchester</a> and Greater Manchester. Our team operates around the clock, so help is available whenever you need it, day or night.'
+    answer: 'We aim to respond to <a href="/services/emergency-drain-services/" class="text-primary hover:underline">emergency drainage callouts</a> within 60-90 minutes across <a href="/locations/poole/" class="text-primary hover:underline">Poole</a> and the surrounding Dorset area. Our team operates around the clock, so help is available whenever you need it, day or night.'
   },
   {
     question: "Do you charge a call-out fee?",
@@ -130,7 +130,7 @@ export const PAGE_FAQS: FAQ[] = [
   },
   {
     question: "What locations do you cover?",
-    answer: 'We provide drainage services throughout <a href="/locations/manchester/" class="text-primary hover:underline">Manchester</a> and Greater Manchester, including <a href="/locations/salford/" class="text-primary hover:underline">Salford</a>, <a href="/locations/stockport/" class="text-primary hover:underline">Stockport</a>, <a href="/locations/altrincham/" class="text-primary hover:underline">Altrincham</a>, Bolton, Oldham, Rochdale, Sale, Didsbury, and Chorlton. See <a href="/locations/" class="text-primary hover:underline">all locations we cover</a>.'
+    answer: 'We provide drainage services throughout <a href="/locations/poole/" class="text-primary hover:underline">Poole</a> and the surrounding Dorset area, including <a href="/locations/bournemouth/" class="text-primary hover:underline">Bournemouth</a>, <a href="/locations/christchurch/" class="text-primary hover:underline">Christchurch</a>, <a href="/locations/wimborne/" class="text-primary hover:underline">Wimborne Minster</a>, Ferndown, Wareham, Ringwood, Swanage, Verwood, and Blandford Forum. See <a href="/locations/" class="text-primary hover:underline">all locations we cover</a>.'
   },
   {
     question: "What payment methods do you accept?",
