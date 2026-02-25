@@ -23,8 +23,8 @@ This template is **not multi-tenant**. It is designed for a single brand deploym
 ### Core Features
 
 - **Multi-location system** - Support for multiple service areas with individual pages
-- **Service-in-location pages** - Core SEO pages (e.g., "Blocked Drains in Manchester")
-- **Sub-service pages** - Granular service pages (e.g., "Blocked Toilet in Manchester")
+- **Service-in-location pages** - Core SEO pages (e.g., "Blocked Drains in Poole")
+- **Sub-service pages** - Granular service pages (e.g., "Blocked Toilet in Poole")
 - **Static Google-style maps** - Location maps with coverage areas
 - **Lead capture forms** - Contact forms for lead generation
 - **Full JSON-LD schema** - Structured data for rich search results
@@ -59,12 +59,12 @@ All branding is centralised in configuration files. To rebrand for a new client:
 export const BRAND: BrandConfig = {
   brandName: "Your Drain Company",
   domain: "yourdraincompany.co.uk",
-  primaryLocation: "Manchester",
-  serviceAreaLabel: "Manchester and surrounding areas",
+  primaryLocation: "Poole",
+  serviceAreaLabel: "Poole and the surrounding Dorset area",
   phone: "0161 000 0000",
   email: "info@yourdraincompany.co.uk",
   addressLine1: "123 High Street",
-  addressLine2: "Manchester",
+  addressLine2: "Poole",
   postcode: "M1 1AA",
   companyNumber: "12345678",
   primaryColour: "#005BBB",
@@ -96,9 +96,9 @@ Update the primary location and surrounding areas:
 
 ```typescript
 export const PRIMARY_LOCATION: LocationConfig = {
-  slug: "manchester",
-  name: "Manchester",
-  countyOrRegion: "Greater Manchester",
+  slug: "poole",
+  name: "Poole",
+  countyOrRegion: "Dorset",
   latitude: 53.4808,
   longitude: -2.2426,
 };
@@ -259,7 +259,7 @@ This repository includes a Cloudflare Worker that internally rewrites requests t
 
    [env.production]
    routes = [
-     { pattern = "manchesterblockeddrain.co.uk/*", zone_id = "your-zone-id" }
+     { pattern = "plumbers-poole.co.uk/*", zone_id = "your-zone-id" }
    ]
    ```
 
@@ -290,14 +290,14 @@ Test that the worker is functioning:
 
 ```bash
 # Should return 200 (no redirect)
-curl -I https://manchesterblockeddrain.co.uk/services
+curl -I https://plumbers-poole.co.uk/services
 
 # Should also return 200 (canonical URL already has /)
-curl -I https://manchesterblockeddrain.co.uk/services/
+curl -I https://plumbers-poole.co.uk/services/
 
 # Should return 200 for all valid routes
-curl -I https://manchesterblockeddrain.co.uk/locations/manchester
-curl -I https://manchesterblockeddrain.co.uk/blog
+curl -I https://plumbers-poole.co.uk/locations/poole
+curl -I https://plumbers-poole.co.uk/blog
 ```
 
 ---

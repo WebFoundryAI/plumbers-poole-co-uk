@@ -1,5 +1,5 @@
 {
-  "name": "manchesterblockeddrain-astro",
+  "name": "plumbers-poole-astro",
   "type": "module",
   "version": "1.0.0",
   "scripts": {
@@ -21,7 +21,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "@vitest/coverage-v8": "^4.0.18",
     "sharp": "^0.34.5",
-    "typescript": "^5.8.3",
+    "typescript": "^5.9.3",
     "vitest": "^4.0.18"
   }
 }
