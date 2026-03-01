@@ -15,14 +15,14 @@ workers_dev = false
 # Deployment route: applies this worker to all paths on the domain
 # Pattern: https://<domain>/*
 routes = [
-  { pattern = "plumbers-poole.co.uk/*", zone_id = "" }  # Update with your Zone ID
+  { pattern = "plumberspoole.co.uk/*", zone_id = "" }  # Update with your Zone ID
 ]
 
 # Environment: Development
 [env.development]
 vars = { ENVIRONMENT = "development" }
 routes = [
-  { pattern = "plumbers-poole.co.uk/*", zone_id = "" }  # Update with your Zone ID
+  { pattern = "plumberspoole.co.uk/*", zone_id = "" }  # Update with your Zone ID
 ]
 
 # Compatibility Date
@@ -37,7 +37,7 @@ compatibility_date = "2024-12-20"
 [[d1_databases]]
 binding = "DB"
 database_name = "plumbers-poole-leads"
-database_id = "011e48a0-e9a6-4cb8-a377-64dbb686e1f5"
+database_id = "ea3b6d71-a4e0-4649-a3b4-ec0be87fe01c"
 
 # Build Configuration
 [build]

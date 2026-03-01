@@ -1,11 +1,11 @@
 export const BRAND = {
   brandName: "Plumbers Poole",
-  domain: "plumbers-poole.co.uk",
+  domain: "plumberspoole.co.uk",
   primaryLocation: "Poole",
   serviceAreaLabel: "Poole and the surrounding Dorset area",
   phone: "01202119315",
   phoneFormatted: "01202 119315",
-  email: "contactus@plumbers-poole.co.uk",
+  email: "contactus@plumberspoole.co.uk",
   addressLine1: "10 Dolphin Centre",
   addressLine2: "Poole",
   postcode: "BH15 1SR",
