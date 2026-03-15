@@ -11,6 +11,7 @@ export const BRAND = {
   postcode: "BH15 1SR",
   tagline: "Fast, Reliable Plumbing & Drainage Solutions",
   emergencyAvailable: true,
+  ga4Id: "G-MM90VLS92R",
   socialProfiles: [
     "https://www.facebook.com/PlumbersPoole",
     "https://twitter.com/PlumbersPoole",
