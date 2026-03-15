@@ -12,6 +12,7 @@ export const BRAND = {
   tagline: "Fast, Reliable Plumbing & Drainage Solutions",
   emergencyAvailable: true,
   ga4Id: "G-MM90VLS92R",
+  gscVerification: "google961cee0b68e77cd7",
   socialProfiles: [
     "https://www.facebook.com/PlumbersPoole",
     "https://twitter.com/PlumbersPoole",
