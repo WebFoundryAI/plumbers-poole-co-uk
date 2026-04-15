@@ -11,7 +11,7 @@ Disallow: /api/
 Disallow: /_astro/
 
 # Sitemap
-Sitemap: https://plumberspoole.co.uk/sitemap.xml
+Sitemap: https://plumberspoole.co.uk/sitemap-index.xml
 
 # Host
 Host: https://plumberspoole.co.uk
